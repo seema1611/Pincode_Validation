@@ -2,7 +2,7 @@
 shopt -s extglob
 
 #Pattern for pincode
-num_Pattern="^[0-9]{6}$"
+num_Pattern="^([0-9]{3}[ ])*[0-9]{3}$"
 first_alphabate_Pattern="^[A-Za-z@$^*!#%&]{1,}[0-9]*$"
 last_alphabate_Pattern="^[0-9]*[A-Za-z]{1,}"
 
